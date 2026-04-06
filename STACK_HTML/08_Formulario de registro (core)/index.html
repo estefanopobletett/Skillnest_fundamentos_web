@@ -4,71 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión</title>
+    <title>Crea tu cuenta de discord</title>
+    <h1>Crear una cuenta en Discord</h1>
 </head>
 
 <body>
-    <h1>Crear una cuenta de Discord</h1>
     <form action="/registro" method="post">
         <div>
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre">
         </div>
-<br>
+        <br>
         <div>
             <label for="apellido">Apellido:</label>
             <input type="text" id="apellido" name="apellido">
         </div>
-<br>
+        <br>
         <div>
-            <label for="correo">Correo electrónico:</label>
-            <input type="text" id="correo" name="correo">
+            <label for="correo_electronico">Correo electrónico:</label>
+            <input type="password" id="correo_electronico" name="correo_electronico">
         </div>
-<br>
+        <br>
         <div>
             <label for="contraseña">Contraseña:</label>
             <input type="password" id="contraseña" name="contraseña">
         </div>
-<br>
+        <br>
         <div>
-            <label for="Concontraseña">Confirmar contraseña:</label>
-            <input type="password" id="Concontraseña" name="Concontraseña">
+            <label for="confirmar contraseña">Confirmar contraseña:</label>
+            <input type="password" id="confirmar contraseña" name="confirmar contraseña">
         </div>
-<br>
+        <br>
         <div>
             <label for="fecha_nacimiento">Fecha de nacimiento:</label>
             <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
         </div>
-<br>
+        <br>
         <div>
-            <label for="genero">Genero:</label>
-            <input type="radio" id="genero" value="1">Masculino
-            <input type="radio" id="genero" value="1">femenino
-            <input type="radio" id="genero" value="1">Prefiero no decirlo
+            <label for="Genero">Genero:</label>
+            <input type="radio" id="masculino" value="1">Masculino
+
+            <label for="Genero">Genero:</label>
+            <input type="radio" id="femenino" value="1">Femenino
+
+            <label for="Genero">Genero:</label>
+            <input type="radio" id="Prefiero no decirlo" value="1">Prefiero no decirlo
         </div>
         <br>
         <div>
-            <label for="descripcion">Descripcion sobre ti</label><br>
-            <textarea id="descripcion" name="descripcion" rows="4" cols="20"></textarea>
+            <label for="Descripcion">Descripcion sobre ti:</label><br>
+            <textarea id="comentario" name="comentario" rows="4" cols="20"></textarea>
         </div>
         <br>
         <div>
-            <label for="intereses">Selecciona tus intereses:</label>
-            <select id="intereses" name="intereses" required>
+            <label for="selecciona">Selecciona tus intereses:</label>
+            <select id="selecciona" name="selecciona" required>
                 <option value="musica">Musica</option>
-                <option value="peliculas">Peliculas</option>
+                <option value="Peliculas">Peliculas</option>
                 <option value="deportes">Deportes</option>
-                <option value="tecnologia">Tecnologia</option>
+                <option value="Tecnologia">Tecnologia</option>
             </select>
         </div>
-        <div>
-            <input type="checkbox" id="suscribirse" name="suscribirse" checked>
-            <label for="suscribirse">Deseo suscribirme al boletín informativo.</label>
-        </div>
 
+        <br>
         <div>
-            <input type="submit" value="Registrarse">
+            <input type="checkbox">
+            <label for="registrarse">Al registarte, aceptas los <a href="https://discord.com/terms"
+                    target="_blank">Terminos y Condiciones</a> de Discord</label>
         </div>
+        <br>
+        <input type="submit" value="Registrarse">
     </form>
 </body>
 
