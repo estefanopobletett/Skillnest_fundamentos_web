@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+</head>
+
+<body>
+    <h1>Crear una cuenta de Discord</h1>
+    <form action="/registro" method="post">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+<br>
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+        </div>
+<br>
+        <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="text" id="correo" name="correo">
+        </div>
+<br>
+        <div>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña">
+        </div>
+<br>
+        <div>
+            <label for="Concontraseña">Confirmar contraseña:</label>
+            <input type="password" id="Concontraseña" name="Concontraseña">
+        </div>
+<br>
+        <div>
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+        </div>
+<br>
+        <div>
+            <label for="genero">Genero:</label>
+            <input type="radio" id="genero" value="1">Masculino
+            <input type="radio" id="genero" value="1">femenino
+            <input type="radio" id="genero" value="1">Prefiero no decirlo
+        </div>
+        <br>
+        <div>
+            <label for="descripcion">Descripcion sobre ti</label><br>
+            <textarea id="descripcion" name="descripcion" rows="4" cols="20"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="intereses">Selecciona tus intereses:</label>
+            <select id="intereses" name="intereses" required>
+                <option value="musica">Musica</option>
+                <option value="peliculas">Peliculas</option>
+                <option value="deportes">Deportes</option>
+                <option value="tecnologia">Tecnologia</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" id="suscribirse" name="suscribirse" checked>
+            <label for="suscribirse">Deseo suscribirme al boletín informativo.</label>
+        </div>
+
+        <div>
+            <input type="submit" value="Registrarse">
+        </div>
+    </form>
+</body>
+
+</html>
