@@ -1,24 +1,93 @@
-<!--tarea formulario de registro
-para un sitio web para reservar una hora al doctor
-Debe incluir: nombre del paciente, fecha de cita,
-fecha de nacimiento, sintomas del paciente, ciudad (lista_desplegable),
-lista desplegable-->
+<!--tarea de formularios: Crear un formulario de registros
+para un sitio web para reservar hora al doctor
+Debe incluir: Nombre del paciente, fecha de cita,
+fecha de nacimiento, sintomas del paciente, Ciudad (lista desplegable),
+Casilla de verificación -->
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tarea formulario</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registro para el doctor</title>
 </head>
+
 <body>
+    <h1>Formulario de cita médica</h1>
     <form action="#" method="POST">
         <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
+            <label for="nombre">Nombre del paciente:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ingresa el nombre completo">
         </div>
+
         <div>
-            <label for="fechacit">Fecha de la cita:</label>
-            <input type="datetime" id="fechacit" name="edad">
+            <label for="fecha_de_cita">Fecha de cita:</label>
+            <input type="date" id="fecha_de_cita" name="fecha_de_cita" required>
+        </div>
+
+        <div>
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+        </div>
+
+        <fieldset>
+            <legend>Síntomas del paciente</legend>
+
+            <div>
+                <input type="checkbox" id="fiebre" name="sintomas" value="fiebre">
+                <label for="fiebre">Fiebre</label>
+            </div>
+            <div>
+                <input type="checkbox" id="tos" name="sintomas" value="tos">
+                <label for="tos">Tos</label>
+            </div>
+            <div>
+                <input type="checkbox" id="dolor_cabeza" name="sintomas" value="dolor_cabeza">
+                <label for="dolor_cabeza">Dolor de cabeza</label>
+            </div>
+            <div>
+                <label for="comentario">Comentarios / otros síntomas:</label><br>
+                <textarea id="comentario" name="comentario" rows="4" cols="40" placeholder="Describe otros síntomas"></textarea>
+            </div>
+        </fieldset>
+
+        <div>
+            <label for="ciudad">Ciudad:</label>
+            <select id="ciudad" name="ciudad" required>
+                <option value="">Selecciona una ciudad</option>
+                <option value="Arica">Arica</option>
+                <option value="Iquique">Iquique</option>
+                <option value="Calama">Calama</option>
+                <option value="Antofagasta">Antofagasta</option>
+                <option value="Copiapó">Copiapó</option>
+                <option value="La Serena">La Serena</option>
+                <option value="Coquimbo">Coquimbo</option>
+                <option value="Viña del Mar">Viña del Mar</option>
+                <option value="Valparaíso">Valparaíso</option>
+                <option value="Santiago">Santiago</option>
+                <option value="Rancagua">Rancagua</option>
+                <option value="Talca">Talca</option>
+                <option value="Chillán">Chillán</option>
+                <option value="Pucón">Pucón</option>
+                <option value="Puerto Varas">Puerto Varas</option>
+                <option value="Puerto Montt">Puerto Montt</option>
+                <option value="Isla de Chiloé">Isla de Chiloé</option>
+                <option value="Puerto Chacabuco">Puerto Chacabuco</option>
+                <option value="Coyhaique">Coyhaique</option>
+                <option value="Torres del Paine">Torres del Paine</option>
+                <option value="Puerto Natales">Puerto Natales</option>
+                <option value="Punta Arenas">Punta Arenas</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox" id="aseguro" name="aseguro" value="1" required>
+            <label for="aseguro">Aseguro que la información es correcta y acepto los terminos y condiciones.</label>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
     </form>
 </body>
 </html>
