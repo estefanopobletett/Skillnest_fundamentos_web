@@ -3,10 +3,45 @@ h1 {
 }
 
 /*seleccion a trabes de clases */
-.rojo{
+.rojo {
     color: red;
 }
+
 /* seleccion a ttraves de id*/
-#amarillo{
+#amarillo {
     color: yellow;
+}
+
+/*sitio ejemplo*/
+h1 {
+    color: royalblue;
+}
+
+
+p {
+    text-align: right;
+    /*disposicion del texto - izquierda - centrado - derecha*/
+}
+
+.is-centered {
+    text-align: center;
+}
+
+
+.is-orange {
+    color: darkorange;
+}
+
+#container {
+    width: 200px; /* ancho */
+    height: 200px;/* altura */
+    padding: 10px;/* espaciointerno*/
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* agreg al elemento esquinas redondeadas */
+    margin-top: 20px; /* margen superior (espacio externo)*/
+    margin-left: 25px; /* margen izquierdo*/
 }
