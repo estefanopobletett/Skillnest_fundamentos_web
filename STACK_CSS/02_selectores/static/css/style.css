@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+}
+
+/*seleccion a trabes de clases */
+.rojo{
+    color: red;
+}
+/* seleccion a ttraves de id*/
+#amarillo{
+    color: yellow;
+}

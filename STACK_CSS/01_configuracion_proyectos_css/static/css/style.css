@@ -1,0 +1,20 @@
+h1 {
+    color: rebeccapurple;
+    /* color de texto*/
+    font-size: 50px;
+    /* tamaño de fuente (px = pixeles) */
+}
+
+p {
+    color: blue;
+    font-size: 18;
+}
+
+h1 {
+    color: royalblue;
+}
+
+
+p {
+    text-align: right;
+}
