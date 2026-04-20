@@ -1,0 +1,49 @@
+.container {
+    padding: 20px;
+}
+
+.textoIziquierda {
+    text-align: left;
+    /* Alineado a la izquierda */
+}
+
+.textoCentro {
+    text-align: center;
+    /* Alineado al centro */
+}
+
+.textoDerecha {
+    text-align: right;
+    /* Alineado a la derecha */
+}
+
+.subtitulo1 {
+    text-decoration: underline;
+    /* Subrayado */
+    font-style: italic;
+    /* Cursiva */
+}
+
+.tachado {
+    text-decoration: line-through;
+    /* Texto tachado */
+}
+
+.sinDecoracion {
+    text-decoration: none;
+    /* Sin decoración */
+}
+
+.negrita {
+    font-weight: bold;
+    /* Negrita */
+}
+
+.semiNegrita {
+    font-weight: 50;
+    /* Fuente más delgada */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
