@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: solid 1px ;
 }
 
 .encabezado {
@@ -39,15 +40,25 @@
 }
 
 .parrafo1 {
-    font-size: 30px; /*tamaño fijo*/
+    font-size: 30px;
+    /*tamaño fijo*/
 }
 
 .link1 {
-    font-size: 300%; /*tamaño proporcional*/
+    font-size: 300%;
+    /*tamaño proporcional*/
 }
 
-.cursiva{
+.cursiva {
     color: blue;
     margin-top: 15px;
     font-style: italic;
+}
+
+/*📦 Manejo del contenido con overflow, hidden, scroll, auto
+*/
+div {
+    width: 200px;
+    height: 100px;
+    overflow: auto;
 }
