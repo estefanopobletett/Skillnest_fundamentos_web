@@ -23,6 +23,9 @@
     /*centrar un elemento*/
     outline: solid 1px gray;
 }
+.row{
+    padding: 20px;
+}
 
 /* tamaños ejemplos CSS*/
 
@@ -105,4 +108,26 @@ div {
     width: 100%;
     background: red url("/STACK_CSS/06_tamanos/static/images/bannerr.png") no-repeat fixed center center;
     background-size: 100%;
+}
+
+/* Bordes y estilos*/
+.cancelar{
+    border: 2px dotted rgb(255, 0, 0);
+    cursor: pointer;
+    padding: 15px;
+}
+.articulo{
+    border: 2px solid rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+    
+}
+
+/*bordes redondeados*/
+.boton_redondeado{
+    border-radius: 5px;
+}
+
+.caja_redondeada{
+    border-radius: 50%;
 }
