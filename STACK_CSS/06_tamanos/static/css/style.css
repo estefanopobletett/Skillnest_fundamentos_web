@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: solid 1px ;
+    outline: solid 1px;
 }
 
 .encabezado {
@@ -23,7 +23,8 @@
     /*centrar un elemento*/
     outline: solid 1px gray;
 }
-.row{
+
+.row {
     padding: 20px;
 }
 
@@ -60,50 +61,51 @@
 
 /*📦 Manejo del contenido con overflow, hidden, scroll, auto
 */
-.caja{
+.caja {
     width: 200px;
     height: 100px;
     display: inline-block;
 }
+
 div {
     width: 200px;
     height: 100px;
     ;
 }
 
-.example1{
+.example1 {
     height: 100px;
     width: 300px;
     background-color: blue;
-    
+
 }
 
-.example2{
+.example2 {
     height: 100px;
     width: 300px;
     background-color: green;
 }
 
-.example3{
+.example3 {
     height: 100px;
     width: 300px;
     background-color: purple;
 }
 
-.hidden{
+.hidden {
     overflow: hidden;
 
 }
 
-.scroll{
+.scroll {
     overflow: scroll;
 }
 
-.auto{
+.auto {
     overflow: auto;
 }
 
-.banner{
+.banner {
     height: 600px;
     width: 100%;
     background: red url("/STACK_CSS/06_tamanos/static/images/bannerr.png") no-repeat fixed center center;
@@ -111,23 +113,74 @@ div {
 }
 
 /* Bordes y estilos*/
-.cancelar{
+.cancelar {
     border: 2px dotted rgb(255, 0, 0);
     cursor: pointer;
     padding: 15px;
 }
-.articulo{
+
+.articulo {
     border: 2px solid rgb(0, 0, 0);
     height: 50px;
     width: 100px;
-    
+
 }
 
 /*bordes redondeados*/
-.boton_redondeado{
-    border-radius: 5px;
+.boton_redondeado {
+    padding: 10px 40px;
+    border-radius: 15px;
 }
 
-.caja_redondeada{
+.caja_redondeada {
+    width: 40px;
+    height: 40px;
+    padding: 11px 16px;
     border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.cajita {
+    width: 150px;
+    height: 40px;
+    outline: solid 1px rgb(72, 23, 206);
+}
+
+.box1 {
+    background-color: darkgray;
+    padding: 10px;
+    /* paddin aplicado a todos los lados*/
+}
+
+.box2 {
+    background-color: rgb(96, 250, 96);
+    padding-top: 0px;
+    /*espacio interno: arriba*/
+    padding-right: 5px;
+    /*espacio interno: derecha*/
+    padding-bottom: 0px;
+    /*espacio interno: abajo*/
+    padding-left: 5px;
+    /*espacio interno: izquierda*/
+    /* padding: 0px 5px 0px 5px --> aplicando en todos los lados*/
+    /* padding 0px 5px --> 0px del eje (y) y 5px del eje (x)*/
+}
+
+.box3 {
+    background-color: cornflowerblue;
+    margin: 10px; /* margen externo: separa elementos*/
+}
+
+.box4 {
+    background-color: bisque;
+    margin: 0x 20px; /*eje x modificado con margin*/
+    padding: 5px 0px; /* eje y modifricado por padding*/
+}
+
+.box5{
+    float: left;
+    width: 50%;
+    background-color: blue;
 }
