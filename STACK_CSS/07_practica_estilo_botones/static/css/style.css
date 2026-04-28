@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    text-align: center;
+}
+.boton_redondeado {
+    display: block;
+    padding: 10px 40px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin: auto;
+    cursor: pointer;
+}
+.boton_cruz_redondeado {
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 11px 15px;
+    background-color: rgb(214, 159, 8);
+    color: azure;
+    border-radius: 50%;
+    margin:auto;
+    margin-top: 15px;
+    border-width: 0px;
+    
+}
+.boton_cruz_redondeado :active {
+    background-color: rgb(255, 61, 2);
+}
+.crearCuenta{
+    display: block;
+    background-color: rgb(36, 175, 255);
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.685);
+    margin: auto;
+    border-width: 0px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
