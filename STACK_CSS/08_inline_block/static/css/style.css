@@ -1,0 +1,90 @@
+.contenedor {
+    text-align: center;
+}
+
+.tarjeta {
+    display:inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: lightseagreen;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------*/
+/*----------------------Sitio index-----------------------*/
+/*--------------------------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+.header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu{
+    margin-top: 10px;
+}
+
+.button{
+    display: inline-block;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #797979;
+}
+
+.contenedor_principal{
+    padding: 25px;
+}
+
+.resaltado{
+    display: inline;
+    background-color: yellow;
+}
+
+.contenedor_tarjeta{
+    text-align: center;
+    padding: 20px;
+}
+.box{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: steelblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bloque{
+    display: block; /* Alinea en bloques hacia abajo*/
+    background-color: tomato;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
