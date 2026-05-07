@@ -58,7 +58,7 @@
     display: inline-block;
     background-color: #1E3A5F;
     height: 150px;
-    width: 1000px;
+    width: 1300px;
     color: white;
     border-radius: 7px;
 }
@@ -74,10 +74,23 @@
 
 .box1{
     display: inline-block;
-    width: 200px;
-    height: 150px;
-    background-color: #1E3A5F;
+    width: 350px;
+    height: 120px;
+    background-color: #00ADE5;
     color: white;
     border-radius: 7px;
-    padding: 55px;
+    padding: 40px;
+    margin: 5px;
+    
+}
+
+.titulo_box{
+    font-size: medium;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.parrafo_box{
+    font-size: small;
+
 }
