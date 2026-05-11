@@ -15,6 +15,10 @@
     margin: 40px;
     margin-top: 20px;
 }
+.contenido{
+
+    vertical-align: top;
+}
 
 .titulo{
     padding: 30px;
@@ -32,7 +36,7 @@
     width: 200px;
     background-color: blue;
     text-align: center;
-    padding-top: 20px;
+    overflow: hidden;
 }
 
 .button{
@@ -49,19 +53,41 @@
 .cajas2{
     display: inline-block;
     background-color: red;
-    height: 400px;
-    width: 1000px;
     margin-left: 20px;
     padding: 20px;
+    width: 1000px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 90px;
 }
 
 .amarillo{
     background-color: yellow;
+    display: inline-block;
+    height: 245px;
+    width: 250px;
+    margin: 10px;
+
 }
 
 .morado{
+    display: inline-block;
     background-color: purple;
     text-align: center;
-    padding: 20px;
-    margin-top: 10px;
+width: 800px;
+height: 100px;
+}
+
+.learn_more{
+    border-radius: 10px;
+        height: 42px;
+    width: 150px;
+    color: purple;
+    border-radius: 20px;
+    height: 42px;
+    width: 150px;
+    margin-top: 25px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
 }
