@@ -7,6 +7,7 @@
 
 .body{
     background-color: rgb(204, 204, 204);
+    paddinng: 60px;
 }
 .encabezado{
     background-color: green;
@@ -14,9 +15,9 @@
     text-align: center;
     margin: 40px;
     margin-top: 20px;
+    margin-right: 89px;
 }
 .contenido{
-
     vertical-align: top;
 }
 
@@ -34,7 +35,7 @@
     display: inline-block;
     height: 500px;
     width: 200px;
-    background-color: blue;
+    background-color: #2C5CDC;
     text-align: center;
     overflow: hidden;
 }
@@ -91,3 +92,4 @@ height: 100px;
     border: none;
     font-weight: bold;
 }
+
