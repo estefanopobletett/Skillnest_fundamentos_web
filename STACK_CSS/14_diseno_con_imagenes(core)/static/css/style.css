@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.titulo{
+    padding: 5px 20px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    box-shadow: gray 5px 5px 5px;
+    width: 150px;
+    height: 150px;
+}
