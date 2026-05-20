@@ -41,13 +41,15 @@ function ejercicio2(){
     if (edad >= 18){
         alert("Acceso permitido");
     } 
-    else {
+    else if (edad < 18 && edad > 0) {
         let acompanado = prompt("¿Vienes acompañado por un adulto? (si o no)").toLowerCase();
         if (acompanado === "si") {
             alert("Acceso permitido");
         } else {
             alert("Acceso denegado");
         }
+    } else{
+        alert("Ingresa edad valida")
     }
 }
 
