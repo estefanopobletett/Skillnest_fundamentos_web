@@ -10,7 +10,19 @@
 // Luego mostrar:
 // Descuento aplicado
 // Total a pagar
-
+function ejercicio1() {
+    let Nombre = prompt("Ingrese su nombre ")
+    let monto = parseInt(prompt("Ingrese el monto"))
+    if (monto >= 50000) {
+        alert(`El monto con descuento es: $${monto * 0.8}`)
+    } else if (monto >= 30000) {
+        alert(`El monto con descuento es: $${monto * 0.9}`)
+    } else if (monto <= 30000 && monto > 0) {
+        alert(`El monto con descuento es: $${monto}. sin descuento`)
+    } else {
+        alert(`Ingrese valores validos`)
+    }
+}
 
 // ✅ Ejercicio 2: Acceso a evento
 // 📝 Enunciado
@@ -23,6 +35,21 @@
 // Mostrar:
 // “Acceso permitido”
 // o “Acceso denegado”
+function ejercicio2(){
+    let edad = parseInt(prompt("Ingrese su edad"));
+    
+    if (edad >= 18){
+        alert("Acceso permitido");
+    } 
+    else {
+        let acompanado = prompt("¿Vienes acompañado por un adulto? (si o no)").toLowerCase();
+        if (acompanado === "si") {
+            alert("Acceso permitido");
+        } else {
+            alert("Acceso denegado");
+        }
+    }
+}
 
 // ✅ Ejercicio 3: Clasificación de temperatura
 // 📝 Enunciado
