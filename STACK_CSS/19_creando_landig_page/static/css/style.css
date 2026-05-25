@@ -16,6 +16,7 @@ body{
     align-items: center;
 }
 
+
 .nav-links {
     /* Flex */
     display: flex;
@@ -37,12 +38,18 @@ body{
     border-radius: 5px;
     font-size: 17px;
 }
+.boton a{
+    text-decoration: none;
+    color: white;
+}
 
 .seccion1{
     background-color: #F4F8FE;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px;
+    gap: 40px;
 }
 
 .seccion1 h1{
@@ -52,9 +59,79 @@ body{
     font-size: 20px;
 }
 
+.imagen{
+    margin: 5px;
+}
+
+.imagen img{
+    border-radius: 40px;
+}
 .presentacion{
     margin-left: 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
+.boton a{
+    color: white;
+    text-decoration: none;
+}
+.links a{
+    font-weight: bold;
+    color: #206DEB;
+    text-decoration: none;
+    margin-left: 10px;
+} 
+
+.seccion2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    gap: 40px;
+}
+
+
+.cajas {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+
+.caja {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    text-align: center;      
+    max-width: 250px;        
+}
+
+
+.Caracteristicas h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.iconos{
+
+    height: 100px;
+    width: 100px;
+}
+
+.seccion3{
+    padding: 30px;
+}
+.empezar{
+    padding: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    background-color: #F4F8FE;
+}
+
