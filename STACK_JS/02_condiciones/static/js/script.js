@@ -62,6 +62,23 @@ function ejercicio2(){
 // Además:
 // Si la temperatura supera los 35 grados, mostrar una alerta adicional:
 //  “Temperatura extrema”.
+function ejercicio3() {
+    let temperatura = parseInt(prompt("Ingresa la temperatura actual:"))
+    if (temperatura < 10) {
+        mensaje = "Hace frio"
+    } else if (temperatura >= 10 && temperatura <= 24) {
+        mensaje = "temperatura agradable";
+    } else{
+        mensaje = "Hace calor";
+    }
+    if (temperatura > 35){
+        mensaje += " Ingresar valores validos";
+    }
+    if(temperatura > 35 && temperatura < 50){
+        mensaje += "\n temperatura extrema";
+    } 
+    alert(mensaje)
+}
 
 // ✅ Ejercicio 4: Verificación de administrador
 // 📝 Enunciado
@@ -91,6 +108,23 @@ function ejercicio2(){
 // Además:
 // Si alguna nota es menor a 2.0 mostrar:
 //  “Debe asistir a reforzamiento”.
+
+function ejercicio5(){
+    let nombreEstudiante = prompt("Ingresa tu nombre")
+    let nota1 = parseInt(prompt("Ingresar nota 1"))
+    let nota2 = parseInt(prompt("Ingresar nota 2"))
+    let nota3 = parseInt(prompt("Ingresar nota 3"))
+    let promedio = Math.round((nota1 + nota2 + nota3) / 3)
+    if (promedio >= 6.0){
+        alert(`Aprobado con excelencia`)
+    }else if(promedio <= 5.9 && promedio >= 4){
+        alert(`Aprobado`)
+    } else {
+        alert(`Reprobado, debe asistir a reforzamiento`)
+    }
+
+    
+}
 
 // 📌 Requisitos Técnicos
 // Cada ejercicio debe:
