@@ -77,8 +77,10 @@ function ejercicio5() {
     } else if (vel <= 49 && vel >= 0) {
         alert(`El conductor ${nombre} tiene una velocidad registrada de  ${vel}KM/h.
             \n Una velocidad lenta`)
-    } else {
+    } else if ( vel >= 151) {
         alert(`El conductor ${nombre} tiene una velocidad registrada de  ${vel}KM/h.
             \n Ha exedido el limite`)
+    } else{
+        alert(`Introduzca valores validos`)
     }
 }
