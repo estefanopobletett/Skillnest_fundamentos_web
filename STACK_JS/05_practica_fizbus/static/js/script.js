@@ -19,7 +19,7 @@
 // 🔁 Bucles en JavaScript (for).
 // 🧠 Condicionales (if, else if, else) para evaluar múltiples reglas.
 // ➗ Operadores aritméticos (% para obtener el residuo de una división).
-// 🖥️ Salida de datos en consola (console.log()).
+// 🖥️ Salida de datos en consola (console.log())
 
 function fizzbus(){
     for (let i = 1; i <= 100; i++) {
