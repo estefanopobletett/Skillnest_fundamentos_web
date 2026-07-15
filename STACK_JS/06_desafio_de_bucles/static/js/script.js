@@ -59,17 +59,11 @@ function ejercicio2() {
 
 function ejercicio3() {
     for (let i = 1; i <= 5; i++) {
-        let precio = i * 1000;
-
-        let Descuento = i * 5;
-        let descuentoCalculado = (precio * Descuento) / 100;
-        let precioFinal = precio - descuentoCalculado;
+        let precio = parseInt(prompt("Ingrese el precio"));
 
         alert(
-            `Producto ${i}\n` +
-            `Precio original: $${precio}\n` +
-            `Descuento aplicado: ${Descuento}% (-$${descuentoCalculado})\n` +
-            `Precio final: $${precioFinal}`
+            `Producto ${i} - descuento aplicado: ${i * 5}
+            \nValor final: ${precio - (precio * (i * 0.05))}` 
         );
     }
 }
@@ -87,7 +81,7 @@ function ejercicio3() {
 
 function ejercicio4() {
     for (let i = 1; i <= 5; i++) {
-        let nivel = i * 1;
+        let nivel = i ;
         let puntaje = i * 50
         alert(
             `Nivel ${nivel} superado...
