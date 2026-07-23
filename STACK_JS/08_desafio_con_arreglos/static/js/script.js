@@ -93,6 +93,6 @@ function filaClientes() {
 
     filaClientes = filaClientes.slice(cantidadAtendidos);
 
-    alert(`Clientes atendidos: ${atendidos.join(" , ")}.
-    \n Clientes en espera: ${filaClientes.join(" , ")}`);
+    alert(`Clientes atendidos: ${atendidos.join(", ")}.
+    \n Clientes en espera: ${filaClientes.join(", ")}.`);
 }
