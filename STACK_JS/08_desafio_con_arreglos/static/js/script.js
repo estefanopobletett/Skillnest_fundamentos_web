@@ -17,7 +17,7 @@ function juegos() {
         }
     }
 
-    console.log("Juegos recomendados: ", recomendados);
+    alert(`Tus juegos recomendados son: ${recomendados.join(" / ")}`);
 }
 
 
@@ -42,7 +42,7 @@ function cancion() {
         }
     }
 
-    console.log("La canción", cancionBuscada, "se reprodujo", contador, "veces.");
+    alert(`La canción, ${cancionBuscada}, se reprodujo, ${contador}, veces.`);
 }
 
 //🕹️ Organizadores de torneo de videojuegos
@@ -71,7 +71,7 @@ function grupos() {
         }
     }
 
-    console.log("Grupos formados: ", grupos);
+    alert(`Grupos formados: ${grupos.join(" / ")}`);
 }
 
 //🎟️ Simulador de una lista de espera en un cine
@@ -93,6 +93,6 @@ function filaClientes() {
 
     filaClientes = filaClientes.slice(cantidadAtendidos);
 
-    console.log("Clientes atendidos: ", atendidos);
-    console.log("Clientes en espera: ", filaClientes);
+    alert(`Clientes atendidos: ${atendidos.join(" , ")}.
+    \n Clientes en espera: ${filaClientes.join(" , ")}`);
 }
