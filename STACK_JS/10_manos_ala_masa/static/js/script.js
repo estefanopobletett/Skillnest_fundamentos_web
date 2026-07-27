@@ -34,6 +34,20 @@ let pi2 = pizzaOven(
     "mozarella",
     ["peperoni", "salchicha", "cebolla"],
 );
+let pi3 = pizzaOven(
+    "tradicional",
+    "bbq",
+    "mozarella",
+    ["peperoni", "salchicha", "cebolla"],
+);
+
+let pi4 = pizzaOven(
+    "tradicional",
+    "keetchup",
+    "mozarella",
+    ["peperoni", "salchicha", "cebolla"],
+);
+
 function pizzaxde(){
 alert(`Ingredientes de la primera pizza:
     corteza: ${pi1.corteza}
@@ -45,6 +59,17 @@ alert(`Ingredientes de la segunda pizza:
     salsa: ${pi2.salsa}
     quesos: ${pi2.quesos}
     ingredientes: ${pi2.ingredientes}`);
+
+    alert(`Ingredientes de la tercera pizza:
+    corteza: ${pi3.corteza}
+    salsa: ${pi3.salsa}
+    quesos: ${pi3.quesos}
+    ingredientes: ${pi3.ingredientes}`);
+alert(`Ingredientes de la cuarta pizza:
+    corteza: ${pi4.corteza}
+    salsa: ${pi4.salsa}
+    quesos: ${pi4.quesos}
+    ingredientes: ${pi4.ingredientes}`);
 
 }
 
