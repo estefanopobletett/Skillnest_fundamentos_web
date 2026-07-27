@@ -1,27 +1,7 @@
-let hamburguesaEspecial = {
-    pan:"Pan brioche",
-    carne:"Pollo crujiente",
-    queso:"Suizo",
-    extras:[
-        "Lechuga",
-        "Pepinos",
-        "Miel"
-    ],
-    mostrarIngredientes:function(){
-        console.log("Pan:",this.pan);
-        console.log("Carne:",this.carne);
-        console.log("Queso:",this.queso);
-        console.log(
-            "Extras:",
-            this.extras.join(", ")
-        );
-    }
-};
+
 
 //Acceder al pan
 
-console.log(hamburguesaEspecial.pan)
-hamburguesaEspecial.mostrarIngredientes()
 
 //Variable con metodo automovil
 let auto = {
@@ -34,13 +14,11 @@ let auto = {
 
     encender:function(){
 
-        console.log(
-
-            "Encendiendo",
-
-            this.marca,
-
-            this.modelo
+        alert(
+`Encendiendo...
+\n${this.marca}
+\n${this.modelo}
+\naño: ${this.año}`
 
         );
     }
@@ -50,5 +28,23 @@ let auto = {
 
 
 
-//Objetivo con metodo
+//Objetivo con metodo CASA
+
+let casa = {
+
+    direccion:"Av. Siempre Viva 742",
+
+    habitaciones:4,
+
+    baños:2,
+
+    mostrarInformacion:function(){
+
+        alert(`direccion:"${this.direccion}`);
+        alert(`habitaciones:"${this.habitaciones}`);
+        alert(`baños:${this.baños}`);
+
+    }
+
+};
 
