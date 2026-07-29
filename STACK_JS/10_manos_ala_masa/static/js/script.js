@@ -68,6 +68,7 @@ alert(`Ingredientes de la segunda pizza:
 alert(`Ingredientes de la cuarta pizza:
     corteza: ${pi4.corteza}
     salsa: ${pi4.salsa}
+    
     quesos: ${pi4.quesos}
     ingredientes: ${pi4.ingredientes}`);
 
