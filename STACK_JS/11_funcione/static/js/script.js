@@ -47,10 +47,11 @@ y permita a través de un bucle contar hasta este.
 EJ: Se recibe el numero 5 y muestra: 1 - 2 - 3 - 4
 */
 
-function contar(a) {
+function contar(limite) {
     let numeros = [];
 
-    for (let i = 1; i <= a; i++) {
+
+    for (let i = 1; i <= limite; i++) {
         numeros.push(i);
     }
 
@@ -59,6 +60,10 @@ function contar(a) {
 
 function mostrarConteo() {
     let num = parseInt(prompt("ingrese un numero"));
+    if(num <= 100){
     let resultado = contar(num);
     alert(`El conteo es: ${resultado}`);
+}else{
+    alert("Ingrese un valor menor o igual a 100")
+}
 }
