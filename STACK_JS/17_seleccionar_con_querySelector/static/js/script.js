@@ -34,7 +34,7 @@ Debe activar su hover js cambiando el color de fondo
 let botonColor = document.querySelector(".botonsin");
 botonColor.addEventListener("mouseover", function () {
     botonColor.style.backgroundColor = "blue";
-        botonColor.style.color = "black";
+                botonColor.style.color = "white";
 
 });
 
@@ -44,8 +44,12 @@ botonColor.addEventListener("mouseout", function () {
 });
 
 botonColor.addEventListener("click", function () {
+    if(this.innerText === "botonsin din dun"){
     this.innerText = `apretaste el boton`;
     botonColor.style.backgroundColor = "blue";
-        botonColor.style.color = "black";
+    }else{
+        this.innerText = `botonsin din dun`;
+    }
+
 
 });
